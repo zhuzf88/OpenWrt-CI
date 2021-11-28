@@ -10,9 +10,11 @@
 name: OpenWrt
 
 on:
+  release:
+    types: [published]
   push:
     branches: 
-      - master
+      - main
 #  schedule:
 #    - cron: 0 2 * * *
   watch:
